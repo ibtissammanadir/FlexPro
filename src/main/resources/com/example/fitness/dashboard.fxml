@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.ImagePattern?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fitness.DashboardController">
+    <Pane fx:id="right_side_pane" prefHeight="699.0" prefWidth="882.0" styleClass="right_side_pane" stylesheets="@style.css" />
+    <Pane layoutX="14.0" layoutY="53.0" prefHeight="401.0" prefWidth="491.0" styleClass="card1" stylesheets="@style.css">
+        <children>
+            <PieChart fx:id="pieChart" layoutX="1.0" layoutY="28.0" prefHeight="371.0" prefWidth="500.0" stylesheets="@style.css" />
+            <Label fx:id="caloriesDB" layoutX="163.0" layoutY="14.0" prefHeight="44.0" prefWidth="103.0" styleClass="label_data" stylesheets="@style.css" text="0/" />
+        </children>
+    </Pane>
+    <Circle layoutX="858.0" layoutY="24.0" radius="17.0" stroke="BLACK" strokeType="INSIDE">
+        <fill>
+            <ImagePattern>
+                <image>
+                    <Image url="@images/aicha.png" />
+                </image>
+            </ImagePattern>
+        </fill>
+    </Circle>
+    <Pane layoutX="16.0" layoutY="473.0" prefHeight="193.0" prefWidth="491.0" styleClass="card1" stylesheets="@style.css">
+        <children>
+            <Label fx:id="heightLabel" layoutX="319.0" layoutY="18.0" prefHeight="145.0" prefWidth="110.0" styleClass="label_data" stylesheets="@style.css" text="Height">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Label>
+            <Label fx:id="weightLabel" layoutX="175.0" layoutY="18.0" prefHeight="145.0" prefWidth="110.0" styleClass="label_data" stylesheets="@style.css" text="Weight">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Label>
+            <Label fx:id="ageLabel" layoutX="28.0" layoutY="18.0" prefHeight="145.0" prefWidth="110.0" styleClass="label_data" stylesheets="@style.css" text="Age" textAlignment="CENTER">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Label>
+        </children></Pane>
+
+    <Pane layoutX="521.0" layoutY="53.0" prefHeight="614.0" prefWidth="351.0" styleClass="card1" stylesheets="@style.css">
+        <children>
+            <Label layoutX="102.0" layoutY="14.0" prefHeight="35.0" prefWidth="185.0" text="Workout Of The Day">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+
+
+            <Pane fx:id="pushpane" layoutX="26.0" layoutY="53.0" prefHeight="608.0" prefWidth="336.0">
+                <children>
+                    <Label layoutX="146.0" layoutY="8.0" text="PUSH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="105.0" layoutX="224.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Barbell-Bench-Press.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="26.0" layoutY="93.0" text="Barbell Bench Press">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="96.0" layoutX="224.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Incline-Barbell-Bench-Press.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="191.0" text="Incline Bench Press">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Cable-Crossover.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="25.0" layoutY="311.0" text="Cable Crossover">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/One-arm-triceps-pushdown.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="24.0" layoutY="417.0" text="One arm pushdown">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="140.0" layoutX="226.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Pushdown.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="513.0" text="Pushdown">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+
+            <Pane fx:id="pullpane" layoutX="26.0" layoutY="53.0" prefHeight="608.0" prefWidth="336.0">
+                <children>
+                    <Label layoutX="146.0" layoutY="8.0" text="PULL">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="105.0" layoutX="224.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Barbell-Curl.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="26.0" layoutY="93.0" text="Barbell Curl">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="96.0" layoutX="224.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Dumbbell-Curl.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="191.0" text="Dumbbell Curl">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Lat-Pulldown.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="25.0" layoutY="311.0" text="Lat Pulldown">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Pull-up.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="24.0" layoutY="417.0" text="Pull up">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="140.0" layoutX="226.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Rowing-Machine.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="513.0" text="Rowing Machine">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+
+
+
+            <Pane fx:id="legpane" layoutX="26.0" layoutY="53.0" prefHeight="608.0" prefWidth="336.0">
+                <children>
+                    <Label layoutX="146.0" layoutY="8.0" text="LEG">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="105.0" layoutX="224.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/BARBELL-SQUAT.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="26.0" layoutY="93.0" text="BARBELL SQUAT">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="96.0" layoutX="224.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Dumbbell-Squat.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="191.0" text="Dumbbell Squat">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/dumbbell-sumo-deadlift.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="25.0" layoutY="311.0" text="dumbbell sumo deadlift">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Leg-Press.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="24.0" layoutY="417.0" text="Leg Press">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="140.0" layoutX="226.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Static-Lunge.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="513.0" text="Static Lunge">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+
+
+
+            <Pane fx:id="cardiopane" layoutX="26.0" layoutY="53.0" prefHeight="570.0" prefWidth="336.0">
+                <children>
+                    <Label layoutX="146.0" layoutY="8.0" text="CARDIO and ABS">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="105.0" layoutX="224.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Run.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="26.0" layoutY="93.0" text="Run">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="86.0" fitWidth="96.0" layoutX="224.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/sprint.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="191.0" text="sprint">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Riding-Outdoor-Bicycle.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="25.0" layoutY="311.0" text="Riding Outdoor Bicycle">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="219.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Cross-Crunch.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="24.0" layoutY="417.0" text="Cross Crunch">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="96.0" fitWidth="140.0" layoutX="226.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@workout/Crunch.gif" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="27.0" layoutY="513.0" text="Crunch">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+
+
+
+        </children>
+    </Pane>
+
+</AnchorPane>

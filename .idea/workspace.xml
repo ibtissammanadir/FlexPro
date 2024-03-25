@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d96f0aa2-4a6c-4bf0-aada-5b5b55a3355f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../S3/Java/DL/DL1/.idea/DL1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/DL/PracticeExercicesBeg/src/main/java/TD1/TD1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/DL/PracticeExercicesBeg/src/main/java/TD2/TD2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/DL/ctrl1/Ctrl1/src/main/java/org/org.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/src/main/java/org/example/CustomerAcc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/src/main/java/org/example/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/Customer/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/exo1/lib/mysql-connector-j-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/exo1/src/main/java/com/example/exo1/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/exo1/src/main/java/com/example/exo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/mailApp/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/mailApp/lib/javax.mail-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/mailApp/mail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/mailApp/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/Java/tp/mailApp/src/main/java/org/example/EmailInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fitness/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fitness/ExecrcicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fitness/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fitness/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/images/Cadenat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/BARBELL-SQUAT.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Barbell-Bench-Press.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Barbell-Curl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Cable-Crossover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Cross-Crunch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Crunch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Dumbbell-Curl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Dumbbell-Squat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Incline-Barbell-Bench-Press.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Lat-Pulldown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Leg-Press.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/One-arm-triceps-pushdown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Pull-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Pushdown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Riding-Outdoor-Bicycle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Rowing-Machine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Run.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/Static-Lunge.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/dumbbell-sumo-deadlift.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/fitness/workout/sprint.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fittracker/src/main/java/com/example/fittracker/HelloController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/src/main/java/com/example/flexpro/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/src/main/java/com/example/flexpro/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexPro/src/main/resources/com/example/flexpro/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powerpoint/up/.idea/up.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2ZH5bF70VK1tuq7rxEha0DVP6vx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/Aicha LAHNOUKI/Desktop/fitness/src/main/resources/com",
+    "last_opened_file_path": "C:/Users/Aicha LAHNOUKI/Desktop/fitness/src/main/resources/com/example/fitness/images",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\resources\com\example\fitness\images" />
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\lib" />
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\resources\com\example\fitness" />
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\java\com\example\fitness" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\resources\com\example\fitness" />
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\resources\com\example\fitness\FXMLFiles" />
+      <recent name="C:\Users\Aicha LAHNOUKI\Desktop\fitness\src\main\resources\com\example\fitness\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.fitness.MainApp" />
+      <module name="fitness" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Aicha LAHNOUKI\Downloads\openjfx-21.0.1_windows-x64_bin-sdk\javafx-sdk-21.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d96f0aa2-4a6c-4bf0-aada-5b5b55a3355f" name="Changes" comment="" />
+      <created>1702066234535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702066234535</updated>
+    </task>
+    <servers />
+  </component>
+</project>

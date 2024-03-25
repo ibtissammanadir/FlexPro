@@ -1,0 +1,102 @@
+root{
+    -fx-background-color:#E9E9E9;
+}
+
+.side_ankerpane{
+     -fx-background-color:#E9E9E9;
+}
+.inner_pane{
+    -fx-background-color:#dfdfdf;
+}
+.most_inner_pane{
+    -fx-background-color:#dfdfdf;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: #748CF1;
+}
+
+.btn{
+     -fx-background-color:#8B0000;
+}
+.btn:hover {
+    -fx-background-color: #141313;
+}
+.right_side_pane{
+-fx-background-color: #8d0000;
+}
+.card1{
+-fx-background-color:#dfdfdf;
+-fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-style: transparent;
+}
+.text-field {
+  -fx-border-color: grey;
+  -fx-border width: 0 0 1 0;
+  -fx-background-color: transparent;
+}
+.default-color0.chart-pie { -fx-pie-color: #195775; }
+.default-color1.chart-pie { -fx-pie-color: #B33A3A; }
+.default-color2.chart-pie { -fx-pie-color: #FFD700; }
+
+.chart-pie-label-line {
+    -fx-stroke: #8b4513;
+    -fx-fill: #8b4513;
+}
+
+.chart-pie-label {
+    -fx-fill: #8b4513;
+    -fx-font-size: 1em;
+}
+.chart-legend {
+   -fx-background-color:  #fafad2;
+   -fx-stroke: #daa520;
+}
+.label_data{
+-fx-background-color:#feded3;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 20px;
+    -fx-border-style: transparent;
+     -fx-padding: 5 5 5 5;
+     -fx-alignment: center ;
+}
+.table-view{
+-fx-background-color: #dfdfdf;
+}
+.table-view .column-header-background .filler {
+    -fx-background-color: #00000;
+}
+.table-view .corner {
+    -fx-background-color: #b7b7b7;
+}
+table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: #FF6347;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell: hover {
+    -fx-background-color: transparent;
+    -fx-text-background-color: red;
+}
+.table-row-cell: odd{
+    -fx-background-color: #feded3;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell: even{
+    -fx-background-color: #feded3;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}

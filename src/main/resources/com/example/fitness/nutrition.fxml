@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="641.0" prefWidth="609.0" styleClass="table-view" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fitness.NutritionController">
+
+    <VBox alignment="CENTER" layoutY="47.0" prefHeight="677.0" prefWidth="731.0" spacing="10">
+
+        <!-- Breakfast Section -->
+        <VBox spacing="10">
+            <HBox spacing="10">
+                <TextField fx:id="breakfastField" prefWidth="141.0" promptText="Enter breakfast item" styleClass="text-field" stylesheets="@style.css" />
+                <TextField fx:id="breakfastWeightField" promptText="Enter weight (g)" styleClass="text-field" stylesheets="@style.css" />
+                <Button onAction="#addItemToTable" prefHeight="25.0" prefWidth="74.0" styleClass="btn" stylesheets="@style.css" text="Add" textFill="WHITE" userData="Breakfast">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            </HBox>
+            <TableView fx:id="breakfastTable" prefHeight="150.0" prefWidth="1024.0" stylesheets="@style.css" />
+        </VBox>
+
+        <!-- Lunch Section with Weight Field -->
+        <VBox prefWidth="672.0" spacing="10">
+            <HBox prefHeight="27.0" prefWidth="681.0" spacing="10">
+                <TextField fx:id="lunchField" promptText="Enter lunch item" styleClass="text-field" stylesheets="@style.css" />
+                <TextField fx:id="lunchWeightField" promptText="Enter weight (g)" styleClass="text-field" stylesheets="@style.css" />
+                <Button onAction="#addItemToTable" prefHeight="25.0" prefWidth="74.0" styleClass="btn" stylesheets="@style.css" text="Add" textFill="WHITE" userData="Lunch">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            </HBox>
+            <TableView fx:id="lunchTable" prefHeight="150" stylesheets="@style.css" />
+        </VBox>
+
+        <!-- Dinner Section with Weight Field -->
+        <VBox spacing="10">
+            <HBox spacing="10" stylesheets="@style.css">
+                <TextField fx:id="dinnerField" promptText="Enter dinner item" styleClass="text-field" stylesheets="@style.css" />
+                <TextField fx:id="dinnerWeightField" promptText="Enter weight (g)" styleClass="text-field" stylesheets="@style.css" />
+                <Button onAction="#addItemToTable" prefHeight="25.0" prefWidth="74.0" styleClass="btn" stylesheets="@style.css" text="Add" textFill="WHITE" userData="Dinner">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            </HBox>
+            <TableView fx:id="dinnerTable" prefHeight="150" stylesheets="@style.css" />
+        </VBox>
+
+        <!-- Snacks Section with Weight Field -->
+        <VBox spacing="10">
+            <HBox spacing="10" stylesheets="@style.css">
+                <TextField fx:id="snacksField" promptText="Enter snacks item" styleClass="text-field" stylesheets="@style.css" />
+                <TextField fx:id="snacksWeightField" promptText="Enter weight (g)" styleClass="text-field" stylesheets="@style.css" />
+                <Button onAction="#addItemToTable" prefHeight="25.0" prefWidth="74.0" styleClass="btn" stylesheets="@style.css" text="Add" textFill="WHITE" userData="Snacks">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            </HBox>
+            <TableView fx:id="snacksTable" prefHeight="150" stylesheets="@style.css" />
+        </VBox>
+
+        <!-- Summary Table -->
+        <VBox spacing="10">
+            <TableView fx:id="summaryTable" prefHeight="180.0" prefWidth="731.0" stylesheets="@style.css">
+                <columns>
+                    <TableColumn prefWidth="100" text="Metric" />
+                    <TableColumn prefWidth="75" text="Calories" />
+                    <TableColumn prefWidth="75" text="Protein" />
+                    <TableColumn prefWidth="75" text="Fat" />
+                    <TableColumn prefWidth="75" text="Carbs" />
+                </columns>
+            </TableView>
+        </VBox>
+    </VBox>
+</AnchorPane>
